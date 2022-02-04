@@ -13,7 +13,7 @@ import { AppComponent } from './app.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatToolbarModule, //para importar os recursos da toolbar
-  ],
+  ], //isso importa para poder exportar par usar em outros modulos
   providers: [],
   bootstrap: [AppComponent],
 })
