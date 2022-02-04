@@ -12,7 +12,7 @@ import { AppComponent } from './app.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatToolbarModule,
+    MatToolbarModule, //para importar os recursos da toolbar
   ],
   providers: [],
   bootstrap: [AppComponent],
